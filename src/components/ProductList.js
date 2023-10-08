@@ -1,6 +1,6 @@
 import * as React from "react";
-import { FlatList, Text } from "react-native";
-import products from "../screens/products";
+import { FlatList } from "react-native";
+import products from "../utils/products";
 import ProductCard from "./ProductCard";
 
 export default function ProductList() {
